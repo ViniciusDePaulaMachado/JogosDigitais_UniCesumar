@@ -1,2 +1,2 @@
 # JogosDigitais_UniCesumar
-Repositório com atividades resolvdas
+Repositório com atividades resolvidas
