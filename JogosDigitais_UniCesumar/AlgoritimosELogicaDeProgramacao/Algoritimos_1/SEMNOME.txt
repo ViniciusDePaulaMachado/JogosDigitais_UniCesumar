@@ -1,0 +1,40 @@
+Algoritmo "semnome"
+
+Var
+   acumuladora, contadora, valor : inteiro
+
+Inicio
+
+      contadora <- 0
+      acumuladora <- 0
+      
+      //=======================================================
+      
+      repita
+            escreva("Informe o valor inteiro a acumular: ")
+            leia(valor)
+            acumuladora <- acumuladora + valor
+            contadora <- contadora + 1
+            escreval("Valor acumulado : ", acumuladora)
+      ate contadora = 3
+      
+      //=======================================================
+      
+      escreval("Valor total acumulado é : ", acumuladora) // o valor continua acumulado
+      
+      contadora <- 0 // reseta o contador
+      
+      //=======================================================
+      
+      repita
+            escreval("Informe o valor inteiro a acumular: ")
+            leia(valor)
+            acumuladora <- acumuladora + valor
+            contadora <- contadora + 1
+      ate contadora = 3
+
+      //=======================================================
+
+      escreva("Valor total acumulado é : ", acumuladora)// o valor continua acumulado
+
+Fimalgoritmo

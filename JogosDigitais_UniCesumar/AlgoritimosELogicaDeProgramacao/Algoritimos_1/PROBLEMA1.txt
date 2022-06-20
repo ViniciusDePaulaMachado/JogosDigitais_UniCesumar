@@ -1,0 +1,33 @@
+Algoritmo "Problema1"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : ler a apresentar nome, idade, peso, altura e telefone do usuario
+// Autor(a)    : Vinicius de Paula Machado
+// Data atual  : 06/05/2022
+
+Var
+   idade : inteiro
+   peso, altura : real
+   nome, telefone : caractere
+
+inicio
+
+escreva("Informe o nome: ")
+leia(nome)
+
+escreva("informe o idade: ")
+leia(idade)
+
+escreva("informe o peso: ")
+leia(peso)
+
+escreva("informe a altura: ")
+leia(altura)
+
+escreva("informe o telefone: ")
+leia(telefone)
+
+escreva("Nome:", nome, ", Idade: ", idade, ", Peso: ", peso, ", Altura: ", altura, ", Telefone: ", telefone)
+
+
+Fimalgoritmo
