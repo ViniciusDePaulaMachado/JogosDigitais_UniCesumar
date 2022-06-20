@@ -18,6 +18,8 @@ int main(){
 	
 	printf("\nA base e: %.2f", resultado);
 	
+	printf("\n");
+	system("pause");
 	return 0;
 	
 }

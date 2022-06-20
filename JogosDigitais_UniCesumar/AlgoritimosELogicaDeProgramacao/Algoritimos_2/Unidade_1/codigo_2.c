@@ -23,6 +23,8 @@ int main (int argc, char *argv[]){
 	printf("\n Sua idade é: %d", idade);
 	printf("\n Sua altura é: %.2f", altura);
 	printf("\n você nasceu aproximadamente em: %d", ano);
-
+	
+	printf("\n");
+	system("pause");
 	return 0;
 }

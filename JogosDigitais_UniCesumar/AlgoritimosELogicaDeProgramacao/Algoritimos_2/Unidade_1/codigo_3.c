@@ -17,5 +17,8 @@ int main(){
 	printf("O numero antecessor e: %d", ant);
 	printf("\nO numero sucessor e: %d", suc);
 	
+	
+	printf("\n");
+	system("pause");
 	return 0;
 }

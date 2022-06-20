@@ -17,5 +17,8 @@ int main(){
 	media = (n1+n2+n3+n4) / 4;
 	
 	printf("A media das notas sao: %.2f", media);
+	
+	printf("\n");
+	system("pause");
 	return 0;
 }

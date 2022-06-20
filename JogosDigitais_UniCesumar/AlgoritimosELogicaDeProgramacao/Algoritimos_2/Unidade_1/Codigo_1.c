@@ -9,5 +9,8 @@ int main(int argc, char *argv[]) {
 	printf("Estou lendo a %d° unidade do livro. \n", 1);
 	printf("%s é uma disciplina importante do curso. \n", "Esta");
 	printf("%f \n", 2.5);
+	
+	printf("\n");
+	system("pause");
 	return 0;
 }

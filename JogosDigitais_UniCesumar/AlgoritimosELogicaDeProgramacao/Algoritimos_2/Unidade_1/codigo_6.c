@@ -16,5 +16,7 @@ int main(){
 	
 	printf("Resultado: %.2f", resultado);
 	
+	printf("\n");
+	system("pause");
 	return 0;
 }

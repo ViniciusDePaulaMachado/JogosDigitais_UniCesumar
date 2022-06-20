@@ -17,5 +17,7 @@ int main(){
 	printf("O rendimento e: R$%.2f", rendimento);
 	printf("\nO total e: R$%.2f", total);
 	
+	printf("\n");
+	system("pause");
 	return 0;
 }
