@@ -6,7 +6,7 @@
 void Tutorial();
 int GerarNumeroAleatorio(int maxNum);
 int SelecionarDificuldade();
-void JogoLogica();
+void LogicaDoJogo();
 void IniciarJogo();
 
 int main(){
@@ -69,7 +69,7 @@ int SelecionarDificuldade(int dificuldade){
 	return numeroSortido;
 }
 
-void JogoDoLogica(){
+void LogicaDoJogo(){
 	
 	int numero, numSortido, dificuldade, palpites;
 	
@@ -121,7 +121,7 @@ void IniciarJogo(){
 	int jogarNovamente = 0;
 	
 	do{
-		JogoDoLogica();
+		LogicaDoJogo();
 		printf("Digite 1 para Novo jogo ou 0 para Sair: ");
 		scanf("%d", &jogarNovamente);
 		system("cls");
